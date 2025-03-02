@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  ds_project:
+    build: .
+    container_name: ds_project_container
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    entrypoint: ["/app/entrypoint.sh"]

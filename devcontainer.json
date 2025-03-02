@@ -1,0 +1,14 @@
+{
+    "name": "DS Project Container",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "ds_project",
+    "workspaceFolder": "/app",
+    "settings": {
+      "python.pythonPath": "/usr/local/bin/python"
+    },
+    "extensions": [
+      "ms-python.python",
+      "ms-toolsai.jupyter"
+    ],
+    "postCreateCommand": "pip install -r requirements.txt"
+  }
