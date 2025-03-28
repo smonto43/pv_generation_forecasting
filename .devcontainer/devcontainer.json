@@ -1,0 +1,13 @@
+{
+  "name": "Census Geolocation Project",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "census_app",
+  "workspaceFolder": "/workspace",
+  "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+      "ms-python.python",
+      "ms-toolsai.jupyter"
+  ]
+}

@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  census_app:
+    build:
+      context: ..                               # Correct context: Project Root
+      dockerfile: .devcontainer/Dockerfile     # Explicit Dockerfile location
+    container_name: pv_forecasting
+    ports:
+      - "8888:8888"
+      - "8501:8501"
+    volumes:
+      - ..:/workspace:cached

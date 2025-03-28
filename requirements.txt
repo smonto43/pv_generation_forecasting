@@ -5,7 +5,7 @@ matplotlib
 seaborn
 plotly
 scipy
-
+torch
 # Librerías para ML
 scikit-learn
 xgboost
